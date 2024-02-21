@@ -11,6 +11,7 @@ class Home_Page extends StatelessWidget {
     _deviceHeight = MediaQuery.of(context).size.height;
     _deviceWidth = MediaQuery.of(context).size.width;
     return Scaffold(
+      
       body: SafeArea(
         child: Container(
           height: _deviceHeight,

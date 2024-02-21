@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lap_app/form/login_bar.dart';
 import 'package:lap_app/goMoonapp/gomoon.dart';
 import 'package:lap_app/instagram_screen/insta_screen.dart';
 import 'package:lap_app/screen/custom_widget/custom_widg.dart';
@@ -18,7 +19,7 @@ class App extends StatelessWidget{
       title: "GOMoon",
       theme: ThemeData(scaffoldBackgroundColor: Color.fromRGBO(31, 31, 31, 1),
       ),
-  home: Home_Page(),
+  home: LoginBar(),
     );
   }
 }
